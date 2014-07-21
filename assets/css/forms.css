@@ -1,0 +1,110 @@
+input, textarea, button, select {
+	font-family:inherit;
+	font-size:inherit;
+}
+::placeholder {
+	color:#7f7f7f;
+	font-size:1em;
+	text-transform: uppercase;
+}
+
+.form {
+	max-width: 400px;
+}
+.fancybox-inner .form {
+	padding: 15px;
+}
+.form__header {
+	color: #ffd800;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.form__left {
+	width:183px;
+	float: left;
+	padding: 3px 10px;
+	color: #7a7d7e;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: bold;
+}
+.form__right {
+	width: 215px;
+	float: left;
+}
+.form__row {
+	margin-bottom:8px;
+}
+.form__row_submit {
+	text-align:center;
+	padding-top: 10px;
+}
+.form__row_right {
+	text-align: right;
+}
+.form__required {
+	font-weight:bold;
+	margin-left:5px;
+}
+.form__input,
+.form__textarea {
+	border:1px solid #d5d5d5;
+	background-color:#fff;
+	padding:0 10px;
+	height:26px;
+	line-height:26px;
+	width:215px;
+	display:inline-block;
+	color:#4a4a4a;
+	font-size:14px;
+	border-radius: 5px;
+}
+.form__textarea {
+	height: auto;
+}
+.form__button {
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	border:0 none;
+	padding: 0 20px;
+	border-radius: 5px;
+	background-color: #ffb000;
+	background:linear-gradient(to bottom, #ffb000, #ff8d00);
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+	transition:all .5s;
+}
+.form__button:hover {
+	background:linear-gradient(to bottom, #ff8d00, #ffb000);
+}
+.form__button:active {
+	position:relative;
+	top:1px; left:1px;
+}
+.form__checkbox {
+	display:inline-block;
+	width:19px;
+	height:19px;
+	vertical-align:middle;
+	background:url(../images/icons.png) -12px 0 no-repeat;
+	overflow:hidden;
+	cursor:pointer;
+}
+.form__checkbox input {
+	opacity:0;
+	cursor:pointer;
+}
+.form__checkbox_checked {
+	background-position:-31px 0;
+}
+
+.warnText {
+	color:#c1003f;
+	font-size:18px;
+	margin:1em 0;
+}

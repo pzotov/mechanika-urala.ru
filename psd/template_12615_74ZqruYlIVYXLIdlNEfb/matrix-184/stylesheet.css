@@ -1,0 +1,559 @@
+/*
+  $Id: stylesheet.css,v 1.1.1.1 2003/09/18 19:06:01 wilt Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+.cat_description {  font-family :tahoma; font-size : 10px; color: #800000; font-weight: bold }
+.boxText { font-family:tahoma; font-size: 10px; }
+.centertable { border-left:1px solid #798CCC; border-right:1px solid #798CCC; background-color:#D2DBF5 }
+.navBlue     { color: #FF0000; font-size: 8pt; font-family: Verdana }
+.errorBox { font-family :tahoma; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family :tahoma; font-size : 10px; color: #cc0033; }
+.productsNotifications {}
+.orderEdit { font-family :tahoma; font-size : 10px; color: #252525; text-decoration: none; }
+
+body {
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	background-color:#ffffff;
+}
+img {
+	border:0;
+	}	
+A {
+  color: #252525;
+  text-decoration: underline;
+}
+
+
+
+FORM {
+        display: inline;
+}
+
+
+TR.headerNavigation {
+  background: #bbc3d3;
+}
+
+TD.headerNavigation {
+  font-family:tahoma;
+  font-size: 11px;
+  background: #bbc3d3;
+  color: #566268;
+  font-weight : bold;
+}
+td 		{
+		vertical-align:top;
+		color:#566268;
+		font-family:tahoma;
+		font-size:11px;
+		}
+
+A.headerNavigation { 
+ color: #424242;
+}
+
+A.headerNavigation:hover {
+ color: #424242;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family:tahoma
+  font-size: 12px;
+  background: #ff0000;
+  color: #252525;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family:tahoma;
+  font-size: 12px;
+  background: #00ff00;
+  color: #252525;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+.infoBoxContents {
+
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+
+.infoBoxNoticeContents {
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+.infoBoxNoticeContents {
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+  font-family:tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  color: #566268; padding-top:4
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+TD.contentBoxHeading {
+  font-family:tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  color: #534F4D; padding-top:5
+}
+
+TR.accountHistory-odd,
+TR.addressBook-odd,
+TR.alsoPurchased-odd,
+TR.payment-odd,
+TR.productListing-odd,
+TR.productReviews-odd,
+TR.upcomingProducts-odd,
+TR.shippingOptions-odd {
+;
+}
+
+TR.accountHistory-even,
+TR.addressBook-even,
+TR.alsoPurchased-even,
+TR.payment-even,
+TR.productListing-even,
+TR.productReviews-even,
+TR.upcomingProducts-even,
+TR.shippingOptions-even
+ {  ;
+}
+
+TABLE.productListing {
+  border-spacing: 1px
+}
+
+.productListing-heading {
+  font-family: tahoma;
+  font-size: 10px;
+  color: #2D3331;
+  font-weight:bold;
+  background:#C6C6C6;
+  padding:5 3 8 3px;
+}
+
+TD.productListing-data {
+  font-family:tahoma;
+  font-size: 10px;
+  background:#EEEEEF;
+  vertical-align:middle;
+  padding:0 5px 0 5px;
+}
+TD.productListing-data a{ text-decoration:none}
+TD.productListing-data a b{
+		color:#000000;
+		text-decoration:none;
+		margin:0 0 0 5px;
+		}
+TD.productListing-data2 {
+  font-family:tahoma;
+  font-size: 10px;
+  padding-top:10px;
+}
+
+A.pageResults {
+  color: #252525;
+}
+
+a:hover.pageResults {
+  color: #252525;
+}
+
+TD.pageHeading, DIV.pageHeading {
+  font-family:tahoma;
+		color:#212121;
+		font-size:12px;
+		padding:12 0 0 22px;
+}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family:tahoma;
+  font-size: 10px;
+  color: #AE1307;
+}
+
+.main, P.main {
+  font-family: tahoma;
+  font-size: 11px;
+  color:#838383;
+  padding:0px 10px 0px 10px;
+}
+TD.main2, P.main2 {
+  font-family:tahoma;
+  font-size: 11px;
+  line-height: 1.5;
+  padding:3px;
+  color:#505050
+  padding:10px; 
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family:tahoma;
+  font-size: 11px;
+  color:#252525;
+}
+
+TD.accountCategory {
+  font-family:tahoma;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family:tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  color:#252525
+}
+
+TD.fieldValue {
+  font-family:tahoma;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family:tahoma;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.category_desc {
+  font-family:tahoma;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+SPAN.newItemInCart {
+  font-family:tahoma;
+  font-size: 10px;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family:tahoma;
+  font-size: 11px;
+}
+select {
+		width:200px;
+		}
+TEXTAREA {
+  width: 100%;
+  font-family:tahoma;
+  font-size: 11px;
+}
+
+SPAN.greetUser {
+  font-family:tahoma;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family:tahoma;
+  color: #AE1307;
+}
+
+SPAN.errorText {
+  font-family:tahoma;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #AE1307; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+
+/* VJ Links Manager v1.00 begin */
+TABLE.linkListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-spacing: 1px;
+}
+
+.linkListing-heading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+TD.linkListing-data {
+  border-right: 1px solid #D6D6D6;
+  border-bottom: 1px solid #D6D6D6;
+  padding: 4px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TR.linkListing-odd {
+}
+
+TR.linkListing-even {
+}
+/* VJ Links Manager v1.00 end */
+.content        {BACKGROUND: none; COLOR: #AE1307; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+
+/* Show Cart Details */
+TR.ShowCartDetails, TD.ShowCartDetails, P.ShowCartDetails {
+/* <FONT COLOR="bbc3d3" FACE="Arial" SIZE="1"> */
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color=: #BDCAF0;
+}
+
+ /* Show Header Page Links */
+TR.HeaderPageLinksLeft, TD.HeaderPageLinksLeft, P.HeaderPageLinksLeft {
+  background-image: url('images/button_blank_left.gif');
+}
+TR.HeaderPageLinksRight, TD.HeaderPageLinksRight, P.HeaderPageLinksRight {
+  background-image: url('images/button_blank_right.gif');
+}
+TR.HeaderPageLinks, TD.HeaderPageLinks, P.HeaderPageLinks {
+  background-image: url('images/button_blank_middle.gif');
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #AE1307
+}
+A.HeaderPageLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+a:hover.HeaderPageLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+/*  background: #00FF00; */
+  color: #00FF00;
+}
+
+TD.cookieUsage {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/* WebMakers.com Added: Editing Attributes */
+.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TR.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TD.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #C0C0C0; }
+
+.storyboxtitle  {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:link           {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:active         {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:visited        {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:hover          {FONT-FAMILY: Verdana; COLOR: #FFFFFF; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: underline; BACKGROUND: none;}
+.yearHeader { font-family: Helvetica, Arial, Verdana; font-size: 14px; font-weight: bold; color: #000000; text-decoration: none;} .calendarMonth { background-color: #BBC3D3; cursor: default; width: 100%;}
+.calendarHeader { font-family: Helvetica, Arial, Verdana; font-size: 11px; font-weight: bold; color: #000000; text-decoration: none; height: 22px;}
+.calendarToday { font-family: Arial, Verdana; font-size: 10px; color: #000000; background-color: #FFCF00; padding-left : 3px; text-decoration: none; border:1px solid #FFFFFF; height: 22px; width: 18px;}
+.calendarWeekend { font-family: Arial, Verdana; font-size: 10px; color: #000000; background-color: #CAEEFF; padding-left : 3px; line-height: 14px; text-decoration: none; border:1px solid #FFFFFF; height: 22px; width: 18px;}
+.calendar { font-family: Arial, Verdana; font-size: 10px; color: #000000; padding-left : 3px; line-height: 14px; text-decoration: none; border:1px solid #FFFFFF; height: 22px; width: 18px; }
+.event { font-family: Arial, Verdana; font-size: 11px; color: #000000; text-decoration: none; border:1px solid #E6E6E6; }
+.empty { background-color: #F0FAFF; line-height: 14px; height: 22px; width: 18px; }
+.calendar A:hover, .calendar A:link, .calendar A:visited, .calendar A:visited:hover, .yearHeader A:hover {color: red; text-decoration: underline;}
+.calendarWeekend A:hover, .calendarWeekend A:link, .calendarWeekend A:visited, .calendarWeekend A:visited:hover {color: red; text-decoration: underline;}
+.calendarToday A:hover, .calendarToday A:link, .calendarToday A:visited, .calendarToday A:visited:hover {color: red; text-decoration: underline;}
+
+
+/* MY*/
+body {margin:0; padding:0; background:#FFFFFF;}
+form {margin:0; padding:0}
+
+td, tr {font:11px/12px tahoma, arial, helvetica, sans-serif; color:#464646; vertical-align:top;  text-align:left;}
+
+/*top*/
+.top1{ background: #2B2B2B url(images/a1.jpg) top no-repeat; width:14px; height:100%;}
+.top2{ background: #2B2B2B url(images/a2.jpg) top repeat-x; width:100%; height:100%;}
+.top3{ background: #2B2B2B url(images/a3.jpg) top no-repeat; width:14px; height:100%;}
+.top21{ background: #2B2B2B url(images/w1.jpg) top no-repeat; width:149px; height:100%;}
+.top4{ background: #FFFFFF url(images/a4_cone.jpg) bottom no-repeat; width:14px; height:100%;}
+.top5{ background:url(images/aa2_bgr.jpg) repeat-y; width:14px; height:100%;}
+.top6{ background:url(images/aa1.jpg) top left repeat-x; width:572px;}
+.top61{ width:572px;}
+.top7{ margin:17px 0 0 6px}
+.b2{ background:url(images/b2.jpg) top repeat-x; width:100%;}
+.b_bgr{ background:url(images/b_bgr.jpg) top repeat-y; width:1px; height:100%;}
+.c1{ width:111px; color:#2B2B2B; font-size:10px; padding-top:11px; text-transform:uppercase;}
+.c2{ width:244px; padding-top:15px;}
+.c2 a{ color:#F7800C; font-size:10px; text-decoration:underline}
+.c2 a:hover{ color:#F7800C; font-size:10px; text-decoration:none}
+.c3{ width:130px; padding-top:10px; color:#494949; font-size:11px;}
+.c3 b{ color:#F7800C; text-decoration:none;}
+.c3 b a{ color:#F7800C; text-decoration:none;}
+.d1{ background:url(images/d1.jpg) top left repeat-y; height:100%;}
+.m1{ margin:5px 0 0 13px}
+
+/*footer*/
+.footer{ height:63px;}
+.end1{ width:14px; background:url(images/end1.jpg) top left repeat-y;  height:100%;}
+.end2{ width:14px; background:url(images/end1.jpg) top right repeat-y;  height:100%;}
+.end_line{ background:url(images/end1.jpg) top repeat-x; width:100%; height:1px;}
+.end3{ margin:9px 0 8px 8px;}
+.end_line{ width:1px; height:100%; background:#CACACA;}
+.end_txt1{ color:#424242;}
+.end_txt1 a{ color:#424242; text-decoration:none}
+.end_txt1 a:hover{ color:#424242; text-decoration:underline}
+.end_txt2{ color:#424242;}
+.end_txt2 a{ color:#0079C7; text-decoration:underline}
+.end_txt2 a:hover{ color:#0079C7; text-decoration:none}
+
+/*content*/
+/*left*/
+.tab_top{ width:100%; background:#CACACA; height:1px}
+.tab_bgr{ width:100%; background:#CACACA;}
+.tab_bot{ width:100%; background:#CACACA;}
+.hed_left{background:url(images/tab2.jpg) top repeat-x; width:100%; padding:12px 0 8px 9px; font-size:10px; color:#2B2B2B; font-weight:bold; text-transform:uppercase}
+.tab_linex{ width:100%; background:#CACACA;}
+.tab_linex_my{background:#CACACA;}
+.tab_liney{ height:100%; width:1px; background:#CACACA;}
+.e1{ background:url(images/e3.jpg) repeat-x; width:100%;}
+
+.lef1{ padding:14px 0 0 13px;}
+.lef1 a{ color:#565656; text-decoration:none}
+.lef1 a:hover{ color:#565656; text-decoration:underline}
+.dot_left{ margin:4px 0 4px 0;}
+.lef2{ width:13px; float:left}
+.lef3{ width:120px; float:left}
+.list_left{ margin:5px 7px 1px 3px}
+
+.lef4{ padding:12px 0 12px 22px; color:#2B2B2B; font-size:10px; font-weight:bold; text-transform:uppercase;}
+.lef5{ padding:12px 0 8px 22px; color:#2B2B2B; font-size:10px; font-weight:bold; text-transform:uppercase;}
+/*right*/
+.hed_right{background:url(images/tab2x.jpg) top repeat-x; width:100%; padding:12px 0 8px 19px; font-size:10px; color:#FFFFFF; font-weight:bold; text-transform:uppercase}
+.rig1{ background:#014C7D; padding:14px 0 16px 15px; width:100%;}
+.rig1 a{ color:#7ECCFF; font-size:11px; text-decoration:none; font-weight:bold}
+.rig1 a:hover{ color:#7ECCFF; font-size:11px; text-decoration:underline; font-weight:bold}
+
+/*center*/
+.cen1{width:100%;}
+.cen2{ margin:7px 0 0 9px; width:392px;}
+.deep td{ color:#696969; font-size:10px;}
+.deep td strong{ color:#383838; font-size:10px;}
+.deep td b{ color:#F7800C; font-size:14px;}
+.deep_price{ color:#F7800C; font-size:14px;}
+.deep td b a{ color:#F7800C; font-size:14px;}
+.deep_x{ padding-left:6px; padding-right:14px;}
+.p1{padding-left:11px; color:#696969; font-size:10px;}
+.p1 strong{color:#696969; font-size:10px;}
+.p2{ margin:10px 0 10px 10px}
+.top_top{ text-transform:uppercase}
+.p3{ font-weight:bold; width:78px;}
+
+
+
+/*footer*/
+/*forms*/
+.f1{ width:155px; height:20px; font-family:tahoma; font-size:11px; padding:1px 0 1px 4px; color:#363636; margin-right:4px; font-family:tahoma; font-weight:normal}
+.f2{ width:134px;  color:#6E6E6E; padding:1px 0 1px 8px; font-size:10px; text-transform:none; font-family:tahoma;  font-weight:normal}
+.f3{ width:39px; height:19px; color:#494949; padding:1px 0 1px 5px; font-family:tahoma; font-size:11px; margin-left:5px;}
+.f4{ width:12px; height:12px; margin:17px 0 0 15px;}
+.f5{ width:39px; height:19px; color:#494949; padding:1px 0 1px 5px; font-family:tahoma; font-size:11px; margin-top:15px;}
+
+/*spisok*/
+.sp_1 ul { margin:13px 0 0 40px; padding:0; list-style:none;}
+.sp_1 li { background:url(images/r1.gif) center left no-repeat; margin:0 0 0 0; padding:0 0 0 11px;}
+.sp_1 li a {line-height:17px; color:#FFFFFF; text-decoration:underline; font-weight:bold;  background-position:left center;}
+.sp_1 li a:hover { text-decoration:none; color:#FFFFFF;}
+
+
+.sp1 ul{ margin:12px 0 0 2px; padding:0; list-style:none; line-height:21px}
+.sp1 li {background:url(images/back_li.jpg) top left no-repeat; width:154px; height:21px }
+.sp1 li a{ color:#2B2726; font-size:11px; text-decoration:none; margin:0 0 0 36px; font-weight:normal}
+.sp1 li a:hover{ text-decoration:underline; color:#2B2726; font-weight:normal}
+.outline {background:url(images/grey_dot.gif) top right repeat-y}
+.outline2 {background:url(images/grey_dot.gif) top left repeat-y}
+.outline3 {background:url(images/grey_dot.gif) bottom left repeat-x}
+.small {color:#696969; font-size:12px; font-weight:bold; text-decoration:none}
+.d123 b {color:#696969;}
+.d123 span {color:#F7800C; font-size:13px;  font-weight:bold;}
+.lisa img{ margin:0 5px 0 5px }
+
+
+.calendarHeader td {text-align:center; vertical-align:middle; font-weight:bold;}
+.calendarWeekend {text-align:center; vertical-align:middle;}
+.calendar {text-align:center; vertical-align:middle;}
+.empty {text-align:center; vertical-align:middle;}
+.calendarToday {text-align:center; vertical-align:middle;}
+
+
+.select {width:57px;}
+
+.lef4_1 {padding:12px 15px 12px 15px; color:#2B2B2B; font-size:10px; font-weight:bold; text-transform:uppercase;}

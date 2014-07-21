@@ -1,0 +1,44 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="5">
+    <img src="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/links_left.gif" width="5" height="25"></td>
+    <td background="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/links_middle.gif">
+    <div align="center">
+      <font class="storyboxtitle">
+      <?php echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_DEFAULT) . '">' . HEADER_LINKS_DEFAULT . '</a>';?>&nbsp;&nbsp;&nbsp;
+<?php
+      if (!tep_session_is_registered('noaccount')){// DDB - PWA - 040622 - no display of logoff for PWA customers
+         if (!tep_session_is_registered('customer_id')) {
+	  echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_LOGIN, "", "SSL") . '">' . HEADER_LINKS_LOGIN . '</a>&nbsp;&nbsp;&nbsp;';
+	        } else {
+	  echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_ACCOUNT, "", "SSL") . '">' . HEADER_LINKS_ACCOUNT_INFO . '</a>&nbsp;&nbsp;&nbsp;';
+	  echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_LOGOFF, "", "SSL") . '">' . HEADER_LINKS_LOGOFF . '</a>&nbsp;&nbsp;&nbsp;';
+	        }
+	       }
+
+     if (tep_session_is_registered('noaccount')) // DDB - PWA - 040622 - no display of account for PWA customers
+       {
+     if (!tep_session_is_registered('customer_id')) {
+	  echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_LOGIN, "", "SSL") . '">' . HEADER_LINKS_LOGIN . '</a>&nbsp;&nbsp;&nbsp;';
+	 }else{
+	  echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_LOGOFF, "", "SSL") . '">' . HEADER_LINKS_LOGOFF . '</a>&nbsp;&nbsp;&nbsp;';
+	    }
+	    }
+
+   echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_SPECIALS) . '">' . HEADER_LINKS_SPECIALS . '</a>&nbsp;&nbsp;&nbsp;';
+     ?>
+	  <?php echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_PRODUCTS_NEW) . '">' . HEADER_LINKS_WHATS_NEW . '</a>';?>&nbsp;&nbsp;&nbsp;
+      <img src="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/arrow.gif" width="4" height="8">
+      <a class="HeaderPageLinks" href="#">MEMBERS</a>&nbsp;&nbsp;&nbsp;
+      <img src="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/arrow.gif" width="4" height="8">
+      <a class="HeaderPageLinks" href="#">DOWNLOADS</a>&nbsp;&nbsp;&nbsp;
+      <img src="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/arrow.gif" width="4" height="8">
+      <a class="HeaderPageLinks" href="#">LINKS</a>&nbsp;&nbsp;&nbsp;
+	 <?php echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_ALLPRODS) . '">' . HEADER_LINKS_PRODUCTS_ALL . '</a>';?>&nbsp;&nbsp;&nbsp;
+	 <?php echo tep_image(DIR_WS_TEMPLATES . TEMPLATE_NAME . '/images/arrow.gif') . ' <a class="HeaderPageLinks" href="' . tep_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">CONTACT US</a>';?></font></div>
+     </font></div>
+    </td>
+    <td width="5">
+    <img src="<?php echo DIR_WS_TEMPLATES . TEMPLATE_NAME;?>/images/links_right.gif" width="5" height="25"></td>
+  </tr>
+</table>
